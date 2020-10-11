@@ -1,7 +1,13 @@
 # marklomas_chuckie-egg
-Mark Lomas's Chuckie Eggv1.1 tidied up and tweaked for Raspberry Pi/Linux
+Mark Lomas's Chuckie Eggv1.1 tidied up and tweaked for Linux.
 
-removed the code:blocks/windows stuff and tidied up the build script.
+confirmed builds & runs on any x86 or ARM (Raspberry Pi) debian 
+based linux, inside chromebook crostini container and probably ok 
+on others too. 
+
+removed the code:blocks/windows stuff, tidied up the build script
+and moved a few things around.
+
 uses SDL 1.2
 
 Not sure why you'd want to but now with included Dockerfile
